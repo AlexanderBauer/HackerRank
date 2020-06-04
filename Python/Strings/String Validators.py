@@ -1,21 +1,18 @@
 if __name__ == '__main__':
-    s       =   input()
-    line1   =   line2 = line3 = line4 = line5 = False
+    s    = input()
+    line = [False, False, False, False, False]
 
     for i in s:
         if i.isalnum():
-            line1 = True
+            line[0] = True
         if i.isalpha():
-            line2 = True
+            line[1] = True
         if i.isdigit():
-            line3 = True
+            line[2] = True
         if i.islower():
-            line4 = True
+            line[3] = True
         if i.isupper():
-            line5 = True
-            
-    print(line1)
-    print(line2)
-    print(line3)
-    print(line4)
-    print(line5)
+            line[4] = True
+       
+    for x in line:
+        print(x)
