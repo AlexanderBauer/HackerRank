@@ -1,3 +1,6 @@
+i               =   4
+d               =   4.0
+s               =   'HackerRank '
 # Declare second integer, double, and String variables.
 second_integer  =   False
 double          =   False
