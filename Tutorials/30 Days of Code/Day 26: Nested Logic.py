@@ -5,7 +5,7 @@ def fine():
     actual      =   input().split()
     expected    =   input().split()
 
-    # calculate differences
+    # calculate differences for D, M, Y
     day_diff    =   int(actual[0]) - int(expected[0])
     month_diff  =   int(actual[1]) - int(expected[1])
     year_diff   =   int(actual[2]) - int(expected[2])
