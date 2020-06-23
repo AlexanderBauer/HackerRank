@@ -8,11 +8,10 @@ import sys
 
 # Complete the countingValleys function below.
 def countingValleys(n, s): 
-    ls      =    list(s) 
     valleys =   0 
     ups     =   0 
     downs   =   0 
-    for step in ls: 
+    for step in list(s): 
         if step == 'U': 
             ups += 1 
             if(ups == downs): 
